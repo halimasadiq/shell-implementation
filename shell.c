@@ -315,15 +315,7 @@ char **findArgs(char *cmd){
 	tokens[position] = NULL;
 
 	tArgc = position;
-//
-//	if(tArgc > 1){
-//	strcpy(cc,tokens[0]);
-//	strcat(cc," ");
-//	for(int i = 1; i < position-1; i++){
-//			strcat(cc,tokens[i]);
-//			strcat(cc," ");
-//	}
-//	}
+
 	return tokens;
 }//end findArgs
 //=============================================================
